@@ -1,4 +1,5 @@
 # EHR-Project
+An ethereum powered blockchain network which stores electronic health records.
 
 ## How To Run
 ### Prerequisites
