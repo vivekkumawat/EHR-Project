@@ -2,9 +2,9 @@
 
 ## How To Run
 ### Prerequisites
-1. Node.js & NPM
-2. Truffle framework
-3. Ganache
+1. Node.js & NPM (To install Node.js visit here <code>https://nodejs.org/en/</code>)
+2. Truffle framework (To install framework <code>npm install truffle -g</code> run this command)
+3. Ganache (To download Ganache visit here <code>https://www.trufflesuite.com/ganache</code>)
 
 ### Procedure
 1. Git clone the repository
