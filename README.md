@@ -9,7 +9,7 @@ An ethereum powered blockchain network which stores electronic health records.
 
 ### Procedure
 1. Git clone the repository
-use command in terminal:- git clone <code>git@github.com:vivekkumawat/EHR-Project.git</code>
+use command in terminal:- <code>git clone git@github.com:vivekkumawat/EHR-Project.git</code>
 2. cd into folder and run:- <code>npm install</code>
 3. Start Ganache and setup a workspace
    - Make sure to add project's truffle-config.js into Ganache workspace
