@@ -9,23 +9,25 @@ contract Reports {
         string reportPdf;
         string reportDesc;
         uint256 Prescription;
-        uint256 doctorDetails;
+        uint256 doctorID;
+        uint256 patientID;
     }
 
     mapping(uint256 => Report) public reports;
 
-    // Broadcasting when an patient event is created
+    // Broadcasting when an report event is created
     event ReportCreated(
         uint256 id,
         string reportPdf,
         string reportDesc,
         uint256 PrescriptionID,
-        uint256 doctorID
+        uint256 doctorID,
+        uint256 patientID
     );
 
     // Constructor which initializes default values
     constructor() public {
-        createReport("reportHASH", "SomeDescriptionAboutReport", 1, 1);
+        createReport("reportHASH", "SomeDescriptionAboutReport", 1, 1, 1);
     }
 
     // A funnction to create patients
@@ -34,7 +36,8 @@ contract Reports {
         string memory _reportPdf,
         string memory _reportDesc,
         uint256 _PrescriptionID,
-        uint256 _doctorID
+        uint256 _doctorID,
+        uint256 _patientID
     ) public {
         ReportCount++;
         reports[ReportCount] = Report(
@@ -42,14 +45,16 @@ contract Reports {
             _reportPdf,
             _reportDesc,
             _PrescriptionID,
-            _doctorID
+            _doctorID,
+            _patientID
         );
         emit ReportCreated(
             ReportCount,
             _reportPdf,
             _reportDesc,
             _PrescriptionID,
-            _doctorID
+            _doctorID,
+            _patientID
         );
     }
 }

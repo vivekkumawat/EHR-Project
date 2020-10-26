@@ -15,7 +15,7 @@ contract Doctors {
 
     mapping(uint256 => Doctor) public doctors;
 
-    // Broadcasting when an patient event is created
+    // Broadcasting when an doctor event is created
     event DoctorCreated(
         uint256 doctorID,
         string name,
@@ -36,7 +36,7 @@ contract Doctors {
         );
     }
 
-    // A funnction to create patients
+    // A funnction to create doctors
 
     function createDoctor(
         string memory _name,
