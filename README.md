@@ -1,7 +1,11 @@
 # Cyber Physical Systems & Security (CPSS) Group
 
 Title of Project: **An ethereum powered blockchain network which stores electronic health records**
-
+### 👨‍🏫 Project Supervisor
+**Dr. Surjit Singh**
+Department of Computer Science & Engineering
+Thapar Institute of Engineering & Technology
+Email: **[surjit.singh@thapar.edu](mailto:surjit.singh@thapar.edu)**
 ## 👥 Team Details
 
 ### Project Team
