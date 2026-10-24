@@ -2,6 +2,10 @@
 
 Title of Project: **An ethereum powered blockchain network which stores electronic health records**
 
+## 👥 Team Details
+
+### Project Team
+
 ## How To Run
 ### Prerequisites
 1. Node.js & NPM (To install Node.js visit here <code>https://nodejs.org/en/</code>)
