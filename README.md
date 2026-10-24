@@ -1,6 +1,6 @@
-CPSS Group Project:
-# EHR-Project
-An ethereum powered blockchain network which stores electronic health records.
+# Cyber Physical Systems & Security (CPSS) Group
+
+Title of Project: **An ethereum powered blockchain network which stores electronic health records**
 
 ## How To Run
 ### Prerequisites
