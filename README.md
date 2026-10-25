@@ -8,7 +8,7 @@ Thapar Institute of Engineering & Technology
 Email: **[surjit.singh@thapar.edu](mailto:surjit.singh@thapar.edu)**
 ## 👥 Team Details
 
-### Project Team
+### Project Team - 2020
 
 ## How To Run
 ### Prerequisites
